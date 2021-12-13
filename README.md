@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fedejaure/cookiecutter-modern-pypackage?logo=github)](https://github.com/fedejaure/cookiecutter-modern-pypackage/releases)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fedejaure/cookiecutter-modern-pypackage?logo=github)](https://github.com/kipyin/cookiecutter-modern-pypackage/releases)
 [![Python Version](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue?logo=python)](https://www.python.org/)
-[![Tests](https://github.com/fedejaure/cookiecutter-modern-pypackage/workflows/tests/badge.svg)](https://github.com/fedejaure/cookiecutter-modern-pypackage/actions?workflow=tests)
+[![Tests](https://github.com/fedejaure/cookiecutter-modern-pypackage/workflows/tests/badge.svg)](https://github.com/kipyin/cookiecutter-modern-pypackage/actions?workflow=tests)
 [![Read the Docs](https://readthedocs.org/projects/cookiecutter-modern-pypackage/badge/)](https://cookiecutter-modern-pypackage.readthedocs.io/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://opensource.org/licenses/MIT)
 
@@ -16,7 +16,7 @@
 
 [Cookiecutter][cookiecutter] template for a modern Python package.
 
-* GitHub repo: <https://github.com/fedejaure/cookiecutter-modern-pypackage.git>
+* GitHub repo: <https://github.com/kipyin/cookiecutter-modern-pypackage.git>
 * Documentation: <https://cookiecutter-modern-pypackage.readthedocs.io>
 * Free software: MIT license
 
@@ -50,7 +50,7 @@ pip install -U cookiecutter
 Generate a Python package project:
 
 ```
-cookiecutter gh:fedejaure/cookiecutter-modern-pypackage --checkout v2.1.0
+cookiecutter gh:kipyin/cookiecutter-modern-pypackage --checkout v2.1.0
 ```
 
 Then:
@@ -69,9 +69,14 @@ For more details, see the [tutorial][tutorial].
 
 This cookiecutter was built for learning purpose and inspired by:
 
+* [fedejaure/cookiecutter-modern-pypackage][fedejaure/cookiecutter-modern-pypackage]: Cookiecutter template for a modern Python package.
 * [audreyr/cookiecutter-pypackage][audreyr/cookiecutter-pypackage]: Cookiecutter template for a Python package.
 * [briggySmalls/cookiecutter-pypackage][briggySmalls/cookiecutter-pypackage]: A fork from [audreyr/cookiecutter-pypackage][audreyr/cookiecutter-pypackage] using Poetry for package management, with linting, formatting and more.
 * [hypermodern-python][hypermodern-python]: Hypermodern Python article series.
+
+[original gh repo]: https://github.com/fedejaure/cookiecutter-modern-pypackage.git
+[original docs]: https://cookiecutter-modern-pypackage.readthedocs.io
+[github repo]: https://github.com/kipyin/cookiecutter-modern-pypackage
 
 [cookiecutter]: https://github.com/cookiecutter/cookiecutter
 [poetry]: https://python-poetry.org/
@@ -93,9 +98,11 @@ This cookiecutter was built for learning purpose and inspired by:
 [tutorial]: https://cookiecutter-modern-pypackage.readthedocs.io/en/latest/tutorial.html
 [click]: http://click.pocoo.org/
 [dependabot]: https://dependabot.com/
+
 [audreyr/cookiecutter-pypackage]: https://github.com/audreyr/cookiecutter-pypackage
 [briggySmalls/cookiecutter-pypackage]: https://github.com/briggySmalls/cookiecutter-pypackage
 [hypermodern-python]: https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
 [codecov]: https://codecov.io/
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
+[fedejaure/cookiecutter-modern-pypackage]: https://github.com/fedejaure/cookiecutter-modern-pypackage
