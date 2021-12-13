@@ -74,6 +74,10 @@ This cookiecutter was built for learning purpose and inspired by:
 * [briggySmalls/cookiecutter-pypackage][briggySmalls/cookiecutter-pypackage]: A fork from [audreyr/cookiecutter-pypackage][audreyr/cookiecutter-pypackage] using Poetry for package management, with linting, formatting and more.
 * [hypermodern-python][hypermodern-python]: Hypermodern Python article series.
 
+[original gh repo]: https://github.com/fedejaure/cookiecutter-modern-pypackage.git
+[original docs]: https://cookiecutter-modern-pypackage.readthedocs.io
+[github repo]: https://github.com/kipyin/cookiecutter-modern-pypackage
+
 [cookiecutter]: https://github.com/cookiecutter/cookiecutter
 [poetry]: https://python-poetry.org/
 [pytest]: https://github.com/pytest-dev/pytest
@@ -94,6 +98,7 @@ This cookiecutter was built for learning purpose and inspired by:
 [tutorial]: https://cookiecutter-modern-pypackage.readthedocs.io/en/latest/tutorial.html
 [click]: http://click.pocoo.org/
 [dependabot]: https://dependabot.com/
+
 [audreyr/cookiecutter-pypackage]: https://github.com/audreyr/cookiecutter-pypackage
 [briggySmalls/cookiecutter-pypackage]: https://github.com/briggySmalls/cookiecutter-pypackage
 [hypermodern-python]: https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
